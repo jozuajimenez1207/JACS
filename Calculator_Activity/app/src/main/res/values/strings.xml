@@ -42,4 +42,7 @@
     
     <string name="displayHint">Enter a Value</string>
 
+    <string name="madeByJACS">Made by JACS</string>
+    <string name="section">BSCpE 2-5</string>
+
 </resources>
