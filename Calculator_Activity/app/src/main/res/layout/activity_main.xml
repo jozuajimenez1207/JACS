@@ -341,6 +341,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/section"
+        android:textAlignment="center"
         android:textColor="@color/tanAccent"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
