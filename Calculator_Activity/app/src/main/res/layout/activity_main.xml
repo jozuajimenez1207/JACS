@@ -330,7 +330,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/madeByJACS"
+        android:text="@string/title"
         android:textColor="@color/tanAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -338,9 +338,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/section"
+        android:text="@string/jacs"
         android:textAlignment="center"
         android:textColor="@color/tanAccent"
         app:layout_constraintEnd_toEndOf="@+id/textView"

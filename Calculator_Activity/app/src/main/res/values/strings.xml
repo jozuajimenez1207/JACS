@@ -42,7 +42,7 @@
     
     <string name="displayHint">Enter a Value</string>
 
-    <string name="madeByJACS">Made by JACS</string>
-    <string name="section">BSCpE 2-5</string>
+    <string name="title">Android Programming #1</string>
+    <string name="jacs">Made by JACS || BSCpE 2-5</string>
 
 </resources>
