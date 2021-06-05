@@ -64,7 +64,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             }
 #if !MOBILE_INPUT
 			// walk speed multiplier
-	        if (CrossPlatformInputManager.GetButton("Sprint")) m_Move *= 0.5f;
+	        if (CrossPlatformInputManager.GetButton("Walk")) m_Move *= 0.5f;
 #endif
 
             // pass all parameters to the character control script
