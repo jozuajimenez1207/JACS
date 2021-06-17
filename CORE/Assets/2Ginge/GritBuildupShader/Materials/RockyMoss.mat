@@ -100,15 +100,15 @@ Material:
     - _DisplaceLayer: 1
     - _DisplaceMoss: 1
     - _Displacement: 0.001
-    - _DistanceTesselation: 0
+    - _DistanceTesselation: 100
     - _DstBlend: 0
     - _Gloss: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.423
     - _GlossyReflections: 1
     - _HeightTimeScale: -0.51
-    - _LayerGloss: 0.153
-    - _LayerMetallic: 0.723
+    - _LayerGloss: 0
+    - _LayerMetallic: 0.849
     - _Metallic: 0.17
     - _Mode: 0
     - _MossAmount: 1
@@ -124,7 +124,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _TessFade: 10
-    - _TessellationValue: 0.1
+    - _TessellationValue: 2.21
     - _UVSec: 0
     - _WorldonLocaloff: 1
     - _ZWrite: 1
