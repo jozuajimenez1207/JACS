@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 272432714371004927}
   - component: {fileID: 272432714381624664}
   - component: {fileID: 272432714381624647}
+  - component: {fileID: -5777432481329537846}
   m_Layer: 0
   m_Name: Asteroid 3 1
   m_TagString: Enemy
@@ -245,6 +246,19 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &-5777432481329537846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272432714381556077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5913f4db5e9613448678e4d16e42059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 5
 --- !u!1 &272432714381723461
 GameObject:
   m_ObjectHideFlags: 0
