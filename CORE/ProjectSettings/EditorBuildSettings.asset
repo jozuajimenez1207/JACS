@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/2_Level_1.unity
     guid: 8fc4ec20226b14b4bbeac6050f3bb189
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Levels/PHANEROZOIC-1(PALEOZOIC).unity
+    guid: 497c8a5a9a75dc84fb83b3888f4c6de6
+  - enabled: 1
+    path: Assets/Scenes/Levels/PHANEROZOIC EON-2(MESOZOIC).unity
+    guid: 1620a39727fdb25419294f7fdb654e86
   m_configObjects: {}
