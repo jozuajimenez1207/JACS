@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         pauseMenu.SetActive(false);
-  
+
     }
 
     public void TogglePauseMenu()

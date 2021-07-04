@@ -2583,7 +2583,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1010192851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb6403103ddb6c647b97219f2b7858f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 71a44ce7cdd951147a6ad02785b55591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1877180811}
@@ -4633,6 +4633,7 @@ GameObject:
   - component: {fileID: 1981571082}
   - component: {fileID: 1981571084}
   - component: {fileID: 1981571083}
+  - component: {fileID: 1981571085}
   m_Layer: 5
   m_Name: AURDialogue
   m_TagString: Untagged
@@ -4695,6 +4696,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981571081}
   m_CullTransparentMesh: 0
+--- !u!114 &1981571085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981571081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a42efb275d51e4c82cf4a753c4b70e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiObject: {fileID: 1981571081}
+  forcefield: {fileID: 0}
 --- !u!1 &2000655215
 GameObject:
   m_ObjectHideFlags: 0
