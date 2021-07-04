@@ -46,12 +46,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.mathematics": {
-      "version": "file:C:/Users/LIJOV/Downloads/Unity.Mathematics-master/src",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.postprocessing": {
       "version": "3.0.3",
       "depth": 0,
