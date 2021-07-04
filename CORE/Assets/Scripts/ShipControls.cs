@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ShipControls : MonoBehaviour
 {
+    public ParticleSystem explosion;
+    public AudioSource explosionSound;
+
     public Transform player;
 
     public FixedJoystick LeftJoystick;
@@ -51,5 +54,16 @@ public class ShipControls : MonoBehaviour
 
         Camera.main.transform.position = transform.position + Quaternion.AngleAxis(CameraAngle1, Vector3.up) * Quaternion.AngleAxis(CameraAngle2, Vector3.right) * new Vector3(20, 8, 12);
         Camera.main.transform.rotation = Quaternion.LookRotation(transform.position + Vector3.up * 2f - Camera.main.transform.position, Vector3.up);
+    }
+
+    public void Explode()
+    {
+        explosionSound.Play();
+
+        // set explosion position to ship's and emit
+        explosion.transform.position = transform.position;
+        explosion.Play();
+
+        Destroy(gameObject);
     }
 }
