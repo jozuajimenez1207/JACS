@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public GameObject pauseMenu;
-
+    public GameObject gameover;
 
 
     private void Start()
     {
         pauseMenu.SetActive(false);
+        gameover.SetActive(false);
+
 
     }
 
