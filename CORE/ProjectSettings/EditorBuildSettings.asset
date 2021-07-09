@@ -15,9 +15,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/2_Level_1.unity
     guid: 8fc4ec20226b14b4bbeac6050f3bb189
   - enabled: 1
-    path: Assets/Scenes/Levels/PHANEROZOIC-1(PALEOZOIC).unity
+    path: Assets/Scenes/Levels/PROTEROZOIC 1 - (OXYGEN CRISIS).unity
+    guid: e2b6d072e0ebd0942880095c7ac04158
+  - enabled: 1
+    path: Assets/Scenes/Levels/PROTEROZOIC 2 - (CELL).unity
+    guid: b9ec07bb6f7e8894ba15da2c209060a6
+  - enabled: 1
+    path: Assets/Scenes/Levels/PROTEROZOIC 3 - (SNOWBALL).unity
+    guid: f8b52576b6783384e99feb09a52ca5d0
+  - enabled: 1
+    path: Assets/PHANEROZOIC-1(PALEOZOIC).unity
     guid: 497c8a5a9a75dc84fb83b3888f4c6de6
   - enabled: 1
     path: Assets/Scenes/Levels/PHANEROZOIC EON-2(MESOZOIC).unity
     guid: 1620a39727fdb25419294f7fdb654e86
+  - enabled: 1
+    path: Assets/Scenes/QuizMainMenu.unity
+    guid: 34543d5ee613c544b886c38d3c400e06
+  - enabled: 1
+    path: Assets/Scenes/QuizGameScene.unity
+    guid: 76ffdf174c0995e4d97256e6f4f3316b
   m_configObjects: {}
