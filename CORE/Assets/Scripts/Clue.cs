@@ -5,7 +5,7 @@ using UnityEngine;
 public class Clue: MonoBehaviour
 {
     public GameObject uiObject;
-    public GameObject forcefield;
+
 
     // Start is called before the first frame update
     void Start()
