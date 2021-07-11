@@ -47345,10 +47345,33 @@ MonoBehaviour:
   dialogue:
     name: JACS
     sentences:
-    - Greetings! You have made it this far. This is the first of three eras of the
-      Phanerozoic Eon, THE PALEOZOIC ERA.
-    - HELLO
-    - As I remember, the chip is in a remote Island, placed on a
+    - We are currently at the Proterozoic Eon, it is the longest geologic eon, beginning
+      2.5 billion years ago and ending 541 million years ago. It accounts for a little
+      less than 4/9ths of geologic time.
+    - 'During the Proterozoic Eon, modern plate tectonics became active, and the
+      ancient cores of the continents moved over wide areas of the globe, accumulating
+      smaller fragments of crust and sometimes colliding with other large landmasses. '
+    - Mountain ranges grew where landmasses collided. Erosion of the mountains provided
+      sediment to nearby basins and shallow seas.
+    - 'In the future, oxygen became an important component of the atmosphere, particularly
+      for human beings. '
+    - 'This is due to some microscopic bacteria known as cyanobacteria that existed
+      during this eon, they did so without oxygen. '
+    - 'These bacteria were known for releasing oxygen as their waste product. This
+      oxygenation of Earth resonated into the Proterozoic Eon and becomes a central
+      theme. '
+    - 'These cyanobacteria are aquatic and photosynthetic, that is, they live in
+      the water, and can manufacture their own food. '
+    - So, for millions of years, cyanobacteria generated oxygen. Eventually, they
+      filled the oceans with oxygen.
+    - 'The irony of cyanobacteria is that the oxygen they released was toxic to them. '
+    - "Cyanobacteria didn\u2019t completely vanish in the Proterozoic Eon. By hiding
+      in low oxygen environments, cyanobacteria avoided their mass extinction."
+    - Your mission is to cross a maze in order to get the micronization equipment
+      that you'll need for your next quest in this eon while avoiding inhaling too
+      much extra oxygen, which can damage your lungs and even cause death in extreme
+      situations.
+    - Better hurry before the entire area is filled with far too much oxygen!
 --- !u!114 &1497857141
 MonoBehaviour:
   m_ObjectHideFlags: 0
