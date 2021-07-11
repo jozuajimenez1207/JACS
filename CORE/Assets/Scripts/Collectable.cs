@@ -5,6 +5,8 @@ using UnityEngine;
 public class Collectable : MonoBehaviour
 {
     public static int capsule = 0;
+    
+    
     private void Awake()
     {
         //capsule--;
