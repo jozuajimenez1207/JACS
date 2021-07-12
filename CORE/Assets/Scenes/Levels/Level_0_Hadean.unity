@@ -631,10 +631,10 @@ MonoBehaviour:
   LeftJoystick: {fileID: 1723937720}
   RightJoystick: {fileID: 481097817}
   HoverJoystick: {fileID: 677015221}
-  forwardSpeed: 25
-  strafeSpeed: 7.5
-  hoverSpeed: 5
-  lookRateSpeed: 90
+  forwardSpeed: 250
+  strafeSpeed: 15
+  hoverSpeed: 10
+  lookRateSpeed: 100
 --- !u!4 &521716952
 Transform:
   m_ObjectHideFlags: 0

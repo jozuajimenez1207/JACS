@@ -8484,7 +8484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2389116134035336837}
-  - component: {fileID: -6691511153496560773}
+  - component: {fileID: -1860599179448577058}
   m_Layer: 0
   m_Name: RockFracture11
   m_TagString: Untagged
@@ -8607,7 +8607,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-6691511153496560773
+--- !u!114 &-1860599179448577058
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8616,7 +8616,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6659000685879201544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 274e1bd41495bc34db3597fbf78eec22, type: 3}
+  m_Script: {fileID: 11500000, guid: 7de606262dc773d4b91a18e61b205908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   time: 3

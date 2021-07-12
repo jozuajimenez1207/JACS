@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8422643619591072449}
   - component: {fileID: 5175909829843006713}
   - component: {fileID: 2615907601388813192}
-  - component: {fileID: 7542671326483562024}
+  - component: {fileID: 3629708243137454776}
   m_Layer: 0
   m_Name: Rock1
   m_TagString: Untagged
@@ -111,7 +111,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6938710573835471721, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
---- !u!54 &7542671326483562024
+--- !u!54 &3629708243137454776
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
