@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e3303c924aaab5e4fb17354cd50022f0, type: 2}
+  - {fileID: 2100000, guid: 22021ecd684891549a9889fa0e221d21, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,8 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fractured: {fileID: 523533613071711390, guid: 0ebf9f1968066d74e9a9f74696085d52, type: 3}
   impactVFX: {fileID: 8685998099548363236, guid: e72e0e10dc7aecf408f8497a1f11f801, type: 3}
-  trails:
-  - {fileID: 7964735378377717973}
+  trails: {fileID: 7964735378377717973}
   time: 1
 --- !u!64 &1603329507092458279
 MeshCollider:
