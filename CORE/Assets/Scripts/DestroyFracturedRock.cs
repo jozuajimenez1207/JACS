@@ -5,7 +5,7 @@ using UnityEngine;
 public class DestroyFracturedRock : MonoBehaviour
 {
 
-    public float time = 3;
+    public float time = 1;
     private bool isFractured;
 
     void Start()
