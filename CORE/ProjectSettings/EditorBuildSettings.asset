@@ -29,10 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/PHANEROZOIC EON-2(MESOZOIC).unity
     guid: 1620a39727fdb25419294f7fdb654e86
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/QuizMainMenu.unity
+    guid: 34543d5ee613c544b886c38d3c400e06
+  - enabled: 1
+    path: Assets/Scenes/QuizGameScene.unity
+    guid: 76ffdf174c0995e4d97256e6f4f3316b
   m_configObjects: {}
