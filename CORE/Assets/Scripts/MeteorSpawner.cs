@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MeteorSpawner : MonoBehaviour
 {
+    public GameObject Ship;
+
     public GameObject MeteorPrefab;
 
     public Vector3 center;
@@ -18,13 +20,21 @@ public class MeteorSpawner : MonoBehaviour
         InvokeRepeating("MeteorSpawn", spawnTime, spawnDelay);
     }
 
+    void Update()
+    {
+        if (Ship == null)
+        {
+            CancelInvoke("MeteorSpawn");
+        }
+    }
+
     public void MeteorSpawn()
     {
         Vector3 pos = center + new Vector3(Random.Range(-size.x/2, size.x/2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
 
         Instantiate(MeteorPrefab, pos, Quaternion.identity);
 
-        if(stopSpawning)
+        if(stopSpawning == true)
         {
             CancelInvoke("MeteorSpawn");
         }

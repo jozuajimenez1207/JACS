@@ -11,7 +11,7 @@ public class Fracture : MonoBehaviour
 
     private bool isFractured = false;
 
-    public float time = 1.5f;
+    public float time = 3f;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -39,16 +39,7 @@ public class Fracture : MonoBehaviour
 
     void Update()
     {
-        if (isFractured == true)
-        {
-            time -= Time.deltaTime;
-
-            if (time < 0)
-            {
-                Destroy(this.gameObject);
-            }
-        }
-        else if (isFractured == false)
+        if (isFractured == false)
         {
             time -= Time.deltaTime;
 
