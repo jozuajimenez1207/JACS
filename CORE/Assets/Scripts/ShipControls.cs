@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ShipControls : MonoBehaviour
 {
-    public HealthBar healthBar;
+    public ParticleSystem explosion;
+    public AudioSource explosionSound;
 
     public Transform player;
 
@@ -56,21 +56,14 @@ public class ShipControls : MonoBehaviour
         Camera.main.transform.rotation = Quaternion.LookRotation(transform.position + Vector3.up * 2f - Camera.main.transform.position, Vector3.up);
     }
 
-    void OnCollisionEnter(Collision collision)
+    public void Explode()
     {
-        if (collision.gameObject.tag == "Enemy")
-        {
-            if (healthBar)
-            {
-                healthBar.TakeDamage(100f);
-            }
-        }
-        else if (collision.gameObject.tag == "mountain")
-        {
-            if (healthBar)
-            {
-                healthBar.TakeDamage(10f);
-            }
-        }
+        explosionSound.Play();
+
+        // set explosion position to ship's and emit
+        explosion.transform.position = transform.position;
+        explosion.Play();
+
+        Destroy(gameObject);
     }
 }
