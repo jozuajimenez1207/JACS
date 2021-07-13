@@ -21,7 +21,6 @@ public class Fracture : MonoBehaviour
         Destroy(gameObject); //Destroy the object to stop it getting in the way
         isFractured = true;
 
-<<<<<<< Updated upstream
         if (trails.Count > 0)
         {
             for (int i = 0; i < trails.Count; i++)
@@ -35,18 +34,6 @@ public class Fracture : MonoBehaviour
                     Destroy(ps.gameObject, ps.main.duration + ps.main.startLifetime.constantMax);
                 }
             }
-=======
-        var ps = trails.GetComponent<ParticleSystem>();
-        ps.Stop();
-        Destroy(ps.gameObject, ps.main.duration + ps.main.startLifetime.constantMax);
-
-        if (collision.gameObject.tag == "ground")
-        {
-            Destroy(ImpactEffects);
-            Destroy(gameObject);
-            ps.Stop();
-            Destroy(ps.gameObject);
->>>>>>> Stashed changes
         }
     }
 
