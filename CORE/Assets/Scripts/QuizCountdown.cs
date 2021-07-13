@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class QuizCountdown : MonoBehaviour
 {
     Image timeBar;
@@ -11,7 +12,7 @@ public class QuizCountdown : MonoBehaviour
 
     public QuizManager quizManager;
 
-    private float maxTime = 30f;
+    public float maxTime = 0f;
 
     // Start is called before the first frame update
     public void Start()
@@ -20,6 +21,7 @@ public class QuizCountdown : MonoBehaviour
         timeBar = GetComponent<Image>();
         timeLeft = maxTime;
     }
+
 
     // Update is called once per frame
     public void Update()
@@ -32,7 +34,7 @@ public class QuizCountdown : MonoBehaviour
         else
         {
             quizManager.GameOver();
-            Time.timeScale = 0;
+
         }
     }
     
