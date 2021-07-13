@@ -7,6 +7,10 @@ TagManager:
   - Collectable
   - Enemy
   - ground
+  - Stop
+  - Marcador
+  - Blocks
+  - mountain
   layers:
   - Default
   - TransparentFX
